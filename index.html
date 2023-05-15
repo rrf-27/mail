@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trimite e-mail</title>
+</head>
+<body>
+    <h1>Trimite e-mail</h1>
+    <form action="/send_email" method="post">
+        <label for="recipient">Destinatar:</label>
+        <input type="email" id="recipient" name="recipient" required>
+        <br><br>
+        <label for="subject">Subiect:</label>
+        <input type="text" id="subject" name="subject" required>
+        <br><br>
+        <label for="message">Mesaj:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br><br>
+        <input type="submit" value="Trimite e-mail">
+    </form>
+</body>
+</html>
